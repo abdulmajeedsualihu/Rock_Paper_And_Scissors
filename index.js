@@ -1,24 +1,25 @@
-
+let humanScore = 0;
+let computerScore = 0;
 
 function playGame() {
-    let humanScore = 0;
-    let computerScore = 0;
+    
 
-    function playRound(humanChoice, computerChoice) {
-        computer = 
-        playRound(computer, human)
-    }
+    // function playRound(humanChoice, computerChoice) {
+    //     computer = 
+    //     playRound(computer, human)
+    // }
 
-playRound();
-playRound();
-playRound();
-playRound();
-playRound();
+// playRound();
+// playRound();
+// playRound();
+// playRound();
+// playRound();
+
 }
 
 
 
-console.log(playRound("You lose!, Paper beats Rock"));
+//console.log(playRound("You lose!, Paper beats Rock"));
 
 function getComputerChoice() {
     const choices = ["rock", "paper", "scissors"]
@@ -28,8 +29,9 @@ function getComputerChoice() {
 console.log(getComputerChoice());
 
 function getHumanChoice() {
-    let human = prompt("Enter your choice" );
+    let human = prompt("Enter your choice(rock, paper, scissors)" ).toLowerCase().trim();
+    return human;
 }
 
-getHumanChoice();
+console.log(getHumanChoice());
 playGame();
