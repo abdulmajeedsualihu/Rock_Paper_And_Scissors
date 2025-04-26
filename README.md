@@ -1,3 +1,3 @@
 # Rock_Paper_And_Scissors
 This project is an interactive game 🎯 and fun to play 
-Try it when you get time 😁..
+Try it when you get time 😁...
